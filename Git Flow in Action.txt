@@ -1,0 +1,21 @@
+//Creates branch feature/calendar
+git checkout -b feature/calendar
+
+//Pushes newly created branch to github
+git push origin feature/calendar
+
+//Check status of modified files in vscode
+git status
+
+//Adds all file changes
+git add .
+
+//Commits modified dev ready branch file
+git commit -m"dev ready"
+
+//Pushes branch feature/calendar to github
+git push
+git push --set-upstream origin feature/calendar
+
+//Switch to dev branch 
+git checkout dev
