@@ -1,0 +1,30 @@
+//switches to a newly created branch
+git checkout - b dev
+
+//Displays all branches
+git branch
+
+//Pushes new created branch to github
+git push origin dev
+
+//Create a new feature branch (use / for feature name)
+git checkout -b feature/calendar
+
+//Displays newly created branch
+git branch
+
+//Pushes new feature to github
+git push origin feature/calendar
+
+//How to delete a branch
+git push origin :feature/calendar
+
+//switch to dev branch to delete branch afterwards
+git checkout dev
+
+//Delete branch feature
+git branch -d feature/calendar
+
+//Check deleted branches with git branch
+git branch
+
