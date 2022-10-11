@@ -1,0 +1,28 @@
+//Right click file and click git here
+
+//Initializes empty Git repository
+git init
+
+//add github repository link
+git remote add origin https://github.com/CharlesBZ/teachable.git
+
+//adds all file changes
+git add . 
+
+//Shows you changes you made
+git status
+
+//commits file to github with message in -m"ex. message"
+git commit -m"first commit"
+
+//git branch -M main
+git branch -M main
+
+//Pushes the local repo to github
+git push -u origin main
+
+//Push regular files to your github repo
+git push
+
+//clears the command line
+clear
